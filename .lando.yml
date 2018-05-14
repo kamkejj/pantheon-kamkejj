@@ -3,7 +3,7 @@ recipe: pantheon
 config:
   framework: drupal8
   site: kamkejj
-  id: 00b46589-52d3-43dd-a505-200b9eab14ab
+  id: 77b777e5-a576-494e-bf49-2eee0ed4e287
 events:
   post-db-import:
     - appserver: "cd $LANDO_MOUNT && composer install"
